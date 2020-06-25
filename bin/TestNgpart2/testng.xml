@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+<!--   <groups> -->
+<!--   <run> -->
+<!--   <include name="Smoke"></include> -->
+<!--   <include name="Sanity"></include> -->
+<!--   </run> -->
+<!--   </groups> -->
+    
+    
+    
+    
+     <classes>
+      <class name="TestNgpart2.LoginPageTest">
+      
+      <methods>
+      <include name="login"></include>
+    
+     <include name="admin"></include>
+       <include name="dashbord"></include>
+     <include name="Logout"></include>   
+      </methods>
+      </class>
+      
+    </classes> 
+ 
+ 
+ 
+ 
+    
+  <!--  <classes>
+    <class name ="TestNgpart2.depends">
+    
+    <methods>
+    <include name="admin"></include>	
+<include name="login"></include>    
+    
+    </methods>
+     
+    </class>
+    
+    </classes>-->
+    
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
